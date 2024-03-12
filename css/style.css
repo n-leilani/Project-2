@@ -1,3 +1,11 @@
+@font-face{
+    src: url(../media/fonts/BananaYeti-Extrabold\ Trial.ttf);
+    font-family: Banana-Yeti;
+}
+@font-face{
+    src: url(../media/fonts/libel-suit-rg.otf);
+    font-family: SalvaRolla
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,21 +15,40 @@
     margin: auto;
     margin-top: 10px;
     width: 75%;
-    height: 50px;
-    background-color: #9c404e;
+    height: 75px;
+    background-color: white;
     text-align: center;
     border-radius: 15px;
     padding-top: 5px;
-
 }
 
 #InstaFit-Text{
+    padding-bottom: 50%;
+    margin-bottom: 30px;
+    color: #9c404e ;
+    margin: auto;
+    font-size: 9ch;
+    font-family: Banana-Yeti;
+}
+#what{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 75%;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 5px;
+    font-family: Banana-Yeti;
+    font-size: x-large;
+}
+#what-text{
     padding-top: 2%;
     padding-bottom: 20%;
     color: white ;
    margin: auto;
+   font-family: SalvaRolla;
 }
-
 .image{
     display: block;
     margin: auto;
@@ -29,7 +56,7 @@
     height: 250px;
     border-radius: 5px;
 }
-.cart-div{
+#cart-div1{
     display: block;
     margin: auto;
     background-color: #765659;
@@ -37,8 +64,100 @@
     border-radius: 15px;
     text-align: center;
     margin-top: 10px;
+    font-family: SalvaRolla;
 }
-.cart-text{
+#cart-div2{
+    display: block;
+    margin: auto;
+    background-color: #765659;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: SalvaRolla;
+}
+#cart-div3{
+    display: block;
+    margin: auto;
+    background-color: #765659;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: SalvaRolla;
+}
+#cart-div4{
+    display: block;
+    margin: auto;
+    background-color: #765659;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: SalvaRolla;
+}
+#cart-div5{
+    display: block;
+    margin: auto;
+    background-color: #765659;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: SalvaRolla;
+}
+#cart-div6{
+    display: block;
+    margin: auto;
+    background-color: #765659;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: SalvaRolla;
+}
+#cart-div7{
+    display: block;
+    margin: auto;
+    background-color: #765659;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: SalvaRolla;
+}
+#cart-div8{
+    display: block;
+    margin: auto;
+    background-color: #765659;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: SalvaRolla;
+}
+#cart-text1{
+    color: white;
+}
+#cart-text2{
+    color: white;
+}
+#cart-text3{
+    color: white;
+}
+#cart-text4{
+    color: white;
+}
+#cart-text5{
+    color: white;
+}
+#cart-text6{
+    color: white;
+}
+#cart-text7{
+    color: white;
+}
+#cart-text8{
     color: white;
 }
 .caption{
@@ -60,12 +179,309 @@
 
 .checkout{
     position: absolute;
-    left: 85%;
-    top:95%;
+    left: 90%;
+    top:3%;
     background-color: #775930;
     width: 150px;
     text-align: center;
     height: 30px;
     border-radius: 15px;
     color: white;
+    font-family: SalvaRolla
+}
+.checkout:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #775930;
+}
+.empty{
+    position: absolute;
+    left: 90%;
+    top:7.5%;
+    background-color: #775930;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    font-family: SalvaRolla
+}
+#Error-Div{
+    position: absolute;
+    top: 50%;
+    transform:translate(0,-50%);
+    left: 50%;
+    width: 200px;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 75px;
+    padding-left: 75px;
+    text-align: center;
+    border-radius: 15px;
+    border-color: red;
+    border-style: solid;
+    color: red;
+    font-size: x-large;
+    font-family: SalvaRolla
+}
+.yes{
+    border-color: red;
+    border-style:solid;
+    font-family: SalvaRolla
+}
+.no{
+    border-color: red;
+    border-style:solid;
+    font-family: SalvaRolla
+}
+.yes:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.no:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.empty:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #775930;
+}
+#cart-div1:hover{     
+    cursor:pointer;
+    background-color : #fff;
+}
+#cart-div2:hover{     
+    cursor:pointer;
+    background-color : #fff;
+}
+#cart-div3:hover{     
+    cursor:pointer;
+    background-color : #fff;
+}
+#cart-div4:hover{     
+    cursor:pointer;
+    background-color : #fff;
+}
+#cart-div5:hover{     
+    cursor:pointer;
+    background-color : #fff;
+}
+#cart-div6:hover{     
+    cursor:pointer;
+    background-color : #fff;
+}
+#cart-div7:hover{     
+    cursor:pointer;
+    background-color : #fff;
+}
+#cart-div8:hover{     
+    cursor:pointer;
+    background-color : #fff;
+}
+#cart-text1:hover{
+    color: #765659;
+}
+#cart-text2:hover{
+    color: #765659;
+ }
+ #cart-text3:hover{
+    color: #765659;
+}
+ #cart-text4:hover{
+    color: #765659;
+}
+ #cart-text5:hover{
+    color: #765659;
+}
+#cart-text6:hover{
+    color: #765659;
+}
+#cart-text7:hover{
+    color: #765659;
+}
+#cart-text8:hover{
+    color: #765659;
+    }
+body {
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+    }
+@keyframes bgError{
+    0%{background-color: white;}
+    25%{background-color: red;}
+    50%{background-color: white;}
+    75%{background-color:red}
+    100%{background-color: white;}
+    }
+    .animate-img{
+    animation: bgError 2s infinite;
+        }
+@keyframes bordError{
+    0%{border-color: white;}
+    25%{border-color: red;}
+    50%{border-color: white;}
+    75%{border-color:red}
+    100%{border-color: white;}
+        }
+.animate-border{
+    animation: bordError 2s infinite;
+        }
+@keyframes textclr{
+    0%{color: red;}
+    25%{color: white;}
+    50%{color: red;}
+    75%{color:white}
+    100%{color: red;}
+        }
+.animate-text{
+    animation: textclr 2s infinite;
+        }
+#what:hover{
+    cursor: pointer;
+}
+#statistics{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+#stats-1{
+        display: block;
+        margin: auto;
+        width: 200px;
+        height: 100px;
+        border-radius: 50%;
+        border-style: solid;
+    border: white;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 2%;
+        padding-right:2%;
+        font-size:3ch;
+        font-family: SalvaRolla;
+        color: white;
+}
+#stats-2{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height:100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right:2%;
+    font-size: 3ch;
+    font-family: SalvaRolla;
+    color: white;
+}
+#stats-3{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height:100px;
+    border-radius: 50%;
+    border-style: solid;
+    border: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right:2%;
+    font-size: 3ch;
+    font-family: SalvaRolla;
+    color: white;
+}
+#stats-3:hover{
+    cursor: pointer;
+}
+#questions{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+#question-1{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right:2%;
+    font-size: 3ch;
+    font-family: SalvaRolla;
+    color: white;
+}
+#question-2{
+display: block;
+margin: auto;
+width: 200px;
+height:100px;
+border-radius: 50%;
+border-style: solid;
+border: #fff;
+text-align: center;
+margin-top: 10px;
+padding-top: 5%;
+padding-bottom: 5%;
+padding-left: 2%;
+padding-right:2%;
+font-size: 3ch;
+font-family: SalvaRolla;
+color: white;
+}
+#question-3{
+display: block;
+margin: auto;
+width: 200px;
+height:100px;
+border-radius: 50%;
+border-style: solid;
+border: white;
+text-align: center;
+margin-top: 10px;
+padding-top: 5%;
+padding-bottom: 5%;
+padding-left: 2%;
+padding-right:2%;
+font-size: 3ch;
+font-family: SalvaRolla;
+color: white;
+}
+#question-4{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height:100px;
+    border-radius: 50%;
+    border-style: solid;
+    border: white;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right:2%;
+    font-size: 3ch;
+    font-family: SalvaRolla;
+    color: white;
+    
+    }
+#question-4:hover{
+cursor: pointer;
 }
